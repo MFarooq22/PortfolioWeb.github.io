@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio Website">
+    <meta name="author" content="M Farooq">
+    <title>Portfolio Website</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="images/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- slider link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h2 class="logo">Farooq</h2>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+            <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+            <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+            <li><a href="/service.html" class="navbar-link service-link">Services</a></li>
+            <li><a href="#portfolio" class="navbar-link portfolio-link">Portfolio</a></li>
+            <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- mobile navbar  -->
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+
+<!--  ===============================
+ Our Main Hero Section Start
+ ===================================  -->
+    
+ <main>
+     <section class="section-hero section">
+         <div class="container grid grid-two-column">
+             <div class="section-hero-data">
+                 <p class="hero-top-data">This is me</p>
+                 <h1 class="hero-heading">M Farooq</h1>
+                 <p class="hero-para">
+                     I'm Muhammad Farooq. A Front End Developer and Freelancer.
+                 </p>
+                 <div>
+                     <a href="#contact" class="btn hireme-btn">Hire me</a>
+                 </div>
+             </div>
+             <!-- hero section right side  -->
+             <div class="section-hero-image">
+                 <picture>
+                    <source srcset="images/hero.webp" type="image/webp">
+                    <source srcset="images/hero.jpg" type="image/jpg">
+                     <img src="images/hero.webp" alt="This is me M Farooq" class="hero-img">
+                 </picture>
+             </div>
+         </div>
+     </section>
+ </main>
+
+
+ <!--  ===============================
+ Our Bio-Data Section Start
+ ===================================  -->
+
+ <section class="section-biodata section" id="aboutUs-section">
+    <div class="container grid grid-two-column">
+        <div class="bio-image">
+            <img src="images/biodata.jpg" data-src="images/myImg.jpg" class="bio-img" alt="my bio data image">
+        </div>
+        <!-- right side bio data  -->
+        <div class="bio-data">
+            <h2 class="common-heading">my bio-data</h2>
+            <p class="bio-pera">My name is M Farooq. I'm a Web developer and Graduated Computer Science from one of the top Institute in the Pakistan. Have 2 Years of Experience in the field of Web development</p>
+            <br/>
+            <p>Skills HTML Css Bootstrap JavaScript</p>
+            <div class="bio-data-stats">
+                <div class="bio-stats">
+                    <h3>Design</h3>
+                    <div class="bio-progress-bar  bio-progress">
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>HTML</h3>
+                    <div class="bio-progress-bar  bio-progress-2">
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>CSS</h3>
+                    <div class="bio-progress-bar  bio-progress-3">
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>BOOTSTRAP</h3>
+                    <div class="bio-progress-bar  bio-progress-4">
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="bio-stats">
+                    <h3>JavaScript</h3>
+                    <div class="bio-progress-bar  bio-progress-5">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bio-data-btn">
+                <a href="images/CV.txt" download="MY RESUME" target="_blank" class="btn">Download CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!--  ===============================
+ Our Portfolio Section Start
+ ===================================  -->
+
+ <section class="section section-portfolio">
+     <div class="container">
+         <h2 class="common-heading">Latest Works</h2>
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt totam molestias ducimus facere sunt cupiditate optio! Quibusdam quam est amet?
+         </p>
+     </div>
+
+     <div class="p-btns">
+         <div class="btn p-btn" data-btn-num="1">HTML CSS</div>
+         <div class="btn p-btn" data-btn-num="2">Bootstrap</div>
+         <div class="btn p-btn" data-btn-num="3">JavaScript</div>
+     </div>
+
+     <div class="container grid grid-three-column portfolio-images">
+         <div class="image-overlay p-btn--1">
+             <img src="images/folio/1-min.jpg" alt="my works">
+             <div class="overlay">
+                 <a href="https://mfarooq22.github.io/typingTester.github.io/" target="_blank" class="common-heading">Project 1</a>
+             </div>
+         </div>
+
+         <div class="image-overlay p-btn--2">
+             <img src="images/folio/1-min.jpg" alt="my works">
+             <div class="overlay">
+                 <a href="#" target="_blank" class="common-heading">Project 2</a>
+             </div>
+         </div>
+
+         <div class="image-overlay p-btn--1 p-btn--2">
+             <img src="images/folio/3-min.jpg" alt="my works">
+             <div class="overlay">
+                 <a href="#" target="_blank" class="common-heading">Project 3</a>
+             </div>
+         </div>
+
+         <div class="image-overlay p-btn--1  p-btn--3 ">
+             <img src="images/folio/4-min.jpg" alt="my works">
+             <div class="overlay">
+                 <a href="#" target="_blank" class="common-heading">Project 4</a>
+             </div>
+         </div>
+
+         <div class="image-overlay p-btn--1 p-btn--2 p-btn--3">
+            <img src="images/folio/5-min.jpg" alt="my works">
+            <div class="overlay">
+                <a href="#" target="_blank" class="common-heading">Project 5</a>
+            </div>
+        </div>
+
+        <div class="image-overlay p-btn--1 p-btn--2">
+            <img src="images/folio/3-min.jpg" alt="my works">
+            <div class="overlay">
+                <a href="#" target="_blank" class="common-heading">Project 6</a>
+            </div>
+        </div>
+
+     </div>
+ </section>
+
+
+  <!--  ===============================
+ Our Work Counter Section Start
+ ===================================  -->
+
+<section class="section section-work-data">
+    <div class="container grid grid-four-column">
+        <div>
+            <h2 class="counter-numbers" data-number="500">0+</h2>
+            <p>Project Completed</p>
+        </div>
+
+        <div>
+            <h2 class="counter-numbers" data-number="450">0+</h2>
+            <p>Happy Clients</p>
+        </div>
+
+        <div>
+            <h2 class="counter-numbers" data-number="147">0+</h2>
+            <p>Pending Projects</p>
+        </div>
+
+        <div>
+            <h2 class="counter-numbers" data-number="177">0+</h2>
+            <p>Real Professionals</p>
+        </div>
+
+    </div>
+</section>
+
+
+  <!--  ===============================
+ Our Services Section Start
+ ===================================  -->
+ 
+ <section class="section section-services">
+     <div class="container">
+         <h2 class="common-heading">Services</h2>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit saepe tempora iusto quam rem culpa, sed porro, dolorum quae suscipit consectetur?
+         </p>
+     </div>
+     
+     <!-- services offers card -->
+     <div class="container grid grid-three-column">
+         <div class="service-box">
+            <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Web Development</h3>
+            <p>
+                Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing.
+            </p>
+         </div>
+
+         <div class="service-box">
+             <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+             <h3>Front End Development</h3>
+             <p>
+                 Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript.
+                </p>
+         </div>
+
+         <div class="service-box">
+             <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Backend Development</h3>
+            <p>
+                Backend Development is also known as server-side development. It is everything that the users don't see and contains.
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Wordpress Development</h3>
+            <p>
+                A WordPress developer is a professional that specializes in the infrastructure and ecosystem of the WordPress platform.
+            </p>
+         </div>
+
+         <div class="service-box">
+            <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Web Designing</h3>
+            <p>
+                Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience.
+            </p>
+         </div>
+        
+         <div class="service-box">
+            <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+            <h3>Blockchain Development</h3>
+            <p>
+                Blockchain developers enable secure digital transactions by creating systems to record and store blockchain data in a way that prevents changes or hacks.
+            </p>
+         </div>
+
+     </div>
+ </section>
+
+
+  <!--  ===============================
+ Our Swiper Section Start
+ ===================================  -->
+
+ <section class="section section-testimonial">
+     <div class="container">
+         <h2 class="common-heading">Happy Client Works</h2>
+     </div>
+     <!-- swiper -->
+     <div class="swiper mySwiper container">
+         <div class="swiper-wrapper">
+      <!-- section start  -->
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/a.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Noor Khan</h3>
+                  <p>Civil_Engineer</p>
+              </div>
+          </div>
+      </div>
+      <!-- section end -->
+
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/b.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Shuaib Khan</h3>
+                  <p>Software-Engineer</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- section end -->
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/c.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Arshad Nawaz</h3>
+                  <p>Enterpreneur</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- section end -->
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/d.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Hasnain Noor</h3>
+                  <p>Enterpreneur</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- section end -->
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/e.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Hamza Khan</h3>
+                  <p>Enterpreneur</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- section end -->
+      <div class="swiper-slide">
+          <div class="swiper-client-msg">
+              <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fuga optio amet mollitia officiis voluptate deleniti culpa, iusto eum inventore.
+              </p>
+          </div>
+          <div class="swiper-client-data grid grid-two-column">
+              <figure>
+                  <img src="images/clients/f.jpg" alt="client review">
+              </figure>
+              <div class="client-data-details">
+                  <h3>Mazhar Khan</h3>
+                  <p>Enterpreneur</p>
+              </div>
+          </div>
+      </div>
+      <!-- section end -->
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+  <!--  ===============================
+ Our Freelancing Section Start
+ ===================================  -->
+
+<section class="section section-freelancing">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2>I am <span>available</span> for freelancing</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni architecto officiis aut repellat natus!
+        </p>
+        <a href="/contact.html" class="btn">Hire Me</a>
+    </div>
+</section>
+ 
+
+  <!--  ===============================
+ Contact us Section Start
+ ===================================  -->
+
+<section class="section section-contact">
+    <div class="container">
+        <h2 class="common-heading">Contact Us</h2>
+    </div>
+
+    <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/meqnnqpg" method="POST">
+            <div class="grid grid-two-column">
+                <div>
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Username" id="username" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="demo@gmail.com" id="email" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div>
+                <label for="subject"></label>
+                <input type="text" name="subject" placeholder="subject" id="subject" autocomplete="off" required>
+            </div>
+            
+            <div> 
+                <label for="textarea"></label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" required placeholder="write your message"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="submit" id="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </div>
+</section>
+
+
+  <!--  ===============================
+ Our Footer Section Start
+ ===================================  -->
+
+ <footer class="section section-footer">
+    <div class="container grid grid-four-column">
+        <div class="f-about">
+            <h3>About</h3>
+            <p>
+               We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience. Hope you like it.
+            </p>
+        </div>
+        <!-- end  -->
+        <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Home</a></li>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">About</a></li>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Services</a></li>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Portfolio</a></li>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Contact</a></li>
+        </ul>
+       </div>
+       <!-- end  -->
+
+       <div class="f-services">
+       <h3>Services</h3>
+        <ul>
+           <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Web Design</a></li>
+           <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Web Development</a></li>
+           <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Game Development</a></li>
+           <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Wordpress</a></li>
+           <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Github
+           </a></li>
+       </ul>
+       </div>
+       <!-- end  -->
+
+       <div class="f-address">
+           <h3>Hava a Questions?</h3>
+           <address>
+               <div>
+                   <p>
+                   <span><ion-icon name="location-outline"></ion-icon></span>
+                   Swat, KPK, Pak
+                   </p>
+               </div>
+
+               <div>
+                   <p>
+                   <span><ion-icon name="call-outline"></ion-icon></span>
+                   <a href="tel:+927711250">+927711250</a>
+                   </p>
+               </div>
+
+               <div>
+                   <p>
+                   <span><ion-icon name="mail-outline"></ion-icon></span>
+                   <a href="mailto:sahib261644@gmail.com" class="mail">sahib261644@gmail.com</a>
+                   </p>
+               </div>
+           </address>
+       </div>
+    </div>
+
+    <div class="container">
+        <div class="f-social-icons">
+            <a href="#" target="_blank">
+                <ion-icon class="icons" name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href="#" target="_blank">
+               <ion-icon class="icons" name="logo-instagram"></ion-icon>
+           </a>
+
+           <a href="#" target="_blank">
+               <ion-icon class="icons" name="logo-github"></ion-icon>
+           </a>
+        </div>
+
+        <div class="f-credits">
+           <p>
+               copyright &copy All rights reserved | This templete is made by M Farooq
+           </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Our JavaScript Section  -->
+
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ <!-- slider link  -->
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- slider link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    
+    <!-- navbar section  -->
+    <header class="header">
+        <h2 class="logo">Farooq</h2>
+        <nav class="navbar">
+            <ul class="navbar-lists">
+            <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+            <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+            <li><a href="/service.html" class="navbar-link service-link">Services</a></li>
+            <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- mobile navbar  -->
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!-- contact section  -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.3019290925695!2d72.18058347340752!3d34.66351669633496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc1c8629f68b7f%3A0x5b840cbdb70ec70a!2sAboha%2C%20Swat%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1653136997614!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        <div class="section-contact-main contact-container">
+            <form action="#">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" placeholder="Username" id="username">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="text" name="email" placeholder="demo@gmail.com" id="email">
+                    </div>
+                </div>
+    
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject">
+                </div>
+                
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div>
+                    <input type="submit" name="submit" id="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="section section-footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                   We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience. Hope you like it.
+                </p>
+            </div>
+            <!-- end  -->
+            <div class="f-links">
+            <h3>Links</h3>
+            <ul>
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Home</a></li>
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">About</a></li>
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Services</a></li>
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Portfolio</a></li>
+                <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Contact</a></li>
+            </ul>
+           </div>
+           <!-- end  -->
+   
+           <div class="f-services">
+           <h3>Services</h3>
+            <ul>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Web Design</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Web Development</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Game Development</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Wordpress</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">Github
+               </a></li>
+           </ul>
+           </div>
+           <!-- end  -->
+   
+           <div class="f-address">
+               <h3>Hava a Questions?</h3>
+               <address>
+                   <div>
+                       <p>
+                       <span><ion-icon name="location-outline"></ion-icon></span>
+                       Swat, KPK, Pak
+                       </p>
+                   </div>
+   
+                   <div>
+                       <p>
+                       <span><ion-icon name="call-outline"></ion-icon></span>
+                       <a href="tel:+927711250">+927711250</a>
+                       </p>
+                   </div>
+   
+                   <div>
+                       <p>
+                       <span><ion-icon name="mail-outline"></ion-icon></span>
+                       <a href="mailto:sahib261644@gmail.com" class="mail">sahib261644@gmail.com</a>
+                       </p>
+                   </div>
+               </address>
+           </div>
+        </div>
+   
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="#" target="_blank">
+                    <ion-icon class="icons" name="logo-twitter"></ion-icon>
+                </a>
+   
+                <a href="#" target="_blank">
+                   <ion-icon class="icons" name="logo-instagram"></ion-icon>
+               </a>
+   
+               <a href="#" target="_blank">
+                   <ion-icon class="icons" name="logo-github"></ion-icon>
+               </a>
+            </div>
+   
+            <div class="f-credits">
+               <p>
+                   copyright &copy All rights reserved | This templete is made by M Farooq
+               </p>
+            </div>
+        </div>
+    </footer>
+
+    
+<!-- Our JavaScript Section  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
